@@ -1,0 +1,20 @@
+{
+  "name": "sqlite-electron-binary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/patarapolw/sqlite-electron-binary.git",
+  "author": "Pacharapol Withayasakpunt <patarapolw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cp -r node_modules/sqlite3/lib/binding binding",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "6.1.6",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "sqlite3": "^4.1.1"
+  }
+}
