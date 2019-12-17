@@ -1,0 +1,12 @@
+{
+  "v6": {
+    "devDependencies": {
+      "electron": "^6.0.0"
+    }
+  },
+  "v7": {
+    "devDependencies": {
+      "electron": "^7.0.0"
+    }
+  }
+}

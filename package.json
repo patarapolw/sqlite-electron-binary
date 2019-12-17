@@ -6,15 +6,20 @@
   "author": "Pacharapol Withayasakpunt <patarapolw@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "cp -r node_modules/sqlite3/lib/binding binding",
+    "start": "cp -r node_modules/sqlite3/lib/binding/electron-* binding",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "postuninstall": "electron-builder install-app-deps",
+    "penv": "penv"
   },
   "devDependencies": {
-    "electron": "6.1.6",
-    "electron-builder": "^21.2.0"
+    "electron": "^7.0.0",
+    "electron-builder": "^21.2.0",
+    "penv": "^0.2.0"
   },
   "dependencies": {
     "sqlite3": "^4.1.1"
+  },
+  "env": {
+    "NODE_ENV": "v7"
   }
 }
