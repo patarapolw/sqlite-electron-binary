@@ -4,6 +4,12 @@ Prebuilt bindings for sqlite for Windows and MacOS
 
 See [/binding](/binding).
 
+## Inserting the binaries into your repo
+
+```
+yarn insert <PATH_TO_YOUR_REPO>
+```
+
 ## Building your version
 
 ```
