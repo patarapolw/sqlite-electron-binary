@@ -18,7 +18,7 @@
     "penv": "^0.2.0"
   },
   "dependencies": {
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.2.0"
   },
   "env": {
     "NODE_ENV": "v7"
